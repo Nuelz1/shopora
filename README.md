@@ -44,7 +44,7 @@ shopora/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR-USERNAME/shopora.git
+   git clone https://github.com/Nuelz1/shopora.git
    ```
 
 2. Navigate to the project directory:
