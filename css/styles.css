@@ -1,0 +1,56 @@
+
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #212529;
+}
+
+.product-image{
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+   display:block;
+}
+
+#productGrid .product-item {
+    display: flex;
+}
+
+#productGrid .card {
+    width: 100%;
+}
+
+#productGrid .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+#productGrid .add-to-cart {
+    margin-top: auto;
+}
+
+/* Product card interaction */
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+/* Category button interaction */
+.category-btn {
+    transition: background-color 0.2s ease;
+}
+
+
+/* About section image placeholder */
+.about-image-placeholder {
+    min-height: 300px;
+    background-color: #e9ecef;
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+}
